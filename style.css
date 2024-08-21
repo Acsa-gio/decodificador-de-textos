@@ -1,0 +1,118 @@
+:root{
+    --cor-fundo-corpo: #e5e5e5; 
+    --cor-fundo-elemento: #ffffff;
+    --cor-fontes-s1: #0a3871;
+    --cor-fontes-s2: #495057;
+}
+
+* {
+    background-color: var(--cor-fundo-corpo);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.alura__logo {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 120px;
+    height: 48px;
+}
+
+main {
+    display: flex;
+    margin: 0 0 50px 80px;
+}
+
+textarea{
+    border: none;
+    text-transform: lowercase;
+}
+
+::placeholder {color: var(--cor-fontes-s1);}
+
+.text-area:focus{
+    outline: none;
+}
+
+
+.entrada__de__texto{
+    color: var(--cor-fontes-s1);
+    margin-top: 90px;
+}
+
+.informacao {
+    display: flex;
+    justify-content: left;
+}
+
+.alerta__logo {
+    width: 16px;
+    height: 16px;
+    
+}
+
+.alerta__texto {
+    font-size: 12px;
+    color: var(--cor-fontes-s2);
+    margin: 0 0 1px 2px;
+}
+
+.saida__de__texto{
+    background-color: var(--cor-fundo-elemento);
+    background-image: url(/imagens/boneco.png);
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 65px;
+    color: var(--cor-fontes-s2);
+    border-radius: 24px;
+    border-color: var(--cor-fontes-s1);
+    margin: 20px 0 0 98px;
+    padding-left: 20px;
+    position: fixed;
+    height: 80%;
+}
+.saida__de__texto:focus {
+    outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+    gap: 24px;
+}
+
+.btt__encripitar{
+    background-color: var(--cor-fontes-s1);
+    border: 1px solid var(--cor-fontes-s1);
+    border-radius: 24px;
+    cursor: pointer;
+    color: var(--cor-fundo-elemento);
+    height: 67px;
+    width: 328px;
+}
+
+.btt__desencripitar{
+    background-color: var(--cor-fundo-elemento);
+    color: var(--cor-fontes-s1);
+    border: 1px solid var(--cor-fontes-s1);
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btt__copiar{
+    border: 1px solid var(--cor-fontes-s1);
+    border-radius: 24px;
+    color: var(--cor-fontes-s1);
+    cursor:pointer;
+    height: 67px;
+    width: 336px;
+    margin-left: 148px;
+    margin-top: 528px;
+    position:absolute;
+}
+
+
